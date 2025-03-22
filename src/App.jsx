@@ -1,6 +1,6 @@
 import { Table } from "react-bootstrap";
 import "./App.css";
-import Sidebar from "./componenents/Sidebar.jsx";
+import { Input, TextField } from "@mui/material";
 
 function App() {
   return (
@@ -18,8 +18,8 @@ function App() {
         <tbody>
           <tr>
             <td>Nome</td>
-            <td>Luz Planilhas</td>
-          </tr>
+            <TextField id="outlined-basic" label="Outlined" variant="outlined" />
+            </tr>
           <tr>
             <td>Razão Social</td>
             <td>LUZ LAB DE IDEAS LTDA</td>
