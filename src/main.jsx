@@ -9,6 +9,8 @@ import { Pedidos } from './pages/Pedidos.jsx'
 import { Produtos } from './pages/Produtos.jsx'
 import { Clientes } from './pages/Clientes.jsx'
 import { AppNavbar } from './componenents/AppNavbar.jsx';
+import Login from './pages/Login.jsx';
+
 createRoot(document.getElementById('root')).render(
   <BrowserRouter>
     <Sidebar />
@@ -19,6 +21,8 @@ createRoot(document.getElementById('root')).render(
       <Route path="/pedidos" element={<Pedidos />} />
       <Route path="/produtos" element={<Produtos />} />
       <Route path="/clientes" element={<Clientes />} />
+      <Route path="/login" element={<Login />} />
+      <Route path="/informacoes/equipe" element={<Clientes />} />
     </Routes>
   </BrowserRouter>
 );
