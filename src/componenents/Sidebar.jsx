@@ -1,8 +1,6 @@
 import React, { useState } from 'react';
 import {
   FundProjectionScreenOutlined,
-  HomeOutlined,
-  ShoppingCartOutlined,
   AppstoreOutlined,
   DollarOutlined,
   BarChartOutlined,
@@ -15,6 +13,8 @@ import {
   FundOutlined
 } from '@ant-design/icons';
 import { Link } from 'react-router';
+
+import './styles/Navbars.css'; 
 
 const menuItems = [
   { label: 'Informações', route: '/', icon: <SnippetsOutlined  className="p-1" /> },

@@ -11,7 +11,7 @@ import AssignmentIcon from '@mui/icons-material/Assignment';
 import MoneyIcon from '@mui/icons-material/Money';
 import CalendarTodayIcon from '@mui/icons-material/CalendarToday';
 
-const EmpresaCadastro = () => {
+const CadastroEmpresa = () => {
   const [empresa, setEmpresa] = useState({
     nome: '',
     razao_social: '',
@@ -619,4 +619,4 @@ const EmpresaCadastro = () => {
   );
 };
 
-export default EmpresaCadastro;
+export default CadastroEmpresa;
